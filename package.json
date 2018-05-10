@@ -1,0 +1,20 @@
+{
+  "name": "fcc-imagesearch",
+  "version": "1.0.0",
+  "description": "Image Search Abstraction Layer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Amanda Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
